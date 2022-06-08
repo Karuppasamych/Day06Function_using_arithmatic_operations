@@ -4,6 +4,7 @@ let num1 = prompt('Enter the number');
 let num2 = prompt('Enter the number');
 let opr = prompt('Enter the operands');
 
+console.log("num1 = ",num1,",", "num2 = ",num2)
 function arithmatic(num1, num2, opr){
 
         if(opr == '+'){
